@@ -6,7 +6,7 @@ endif()
 
 project(test_system)
 
-add_subdirectory(libs2)
+add_subdirectory(libs)
 
 add_executable(test_system test.cpp)
 
