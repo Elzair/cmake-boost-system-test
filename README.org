@@ -1,0 +1,17 @@
+* CMake Boost.System Test
+
+This is a simple example for my CMake modularization of boost. It uses =Boost.System= and all of its dependencies.
+
+* Run
+
+To test the example on a *nix system (like Linux or Mac OSX), open a shell and run the following commands.
+
+#+begin_src sh
+git clone --recursive https://github.com/elzair/cmake-boost-system-test.git
+cd cmake-boost-system-test
+mkdir build
+cd build
+cmake ..
+make
+./test_system
+#+end_src sh
