@@ -1,0 +1,15 @@
+[submodule "libs/assert"]
+	path = libs/assert
+	url = https://github.com/elzair/assert.git
+[submodule "libs/config"]
+	path = libs/config
+	url = https://github.com/elzair/config.git
+[submodule "libs/core"]
+	path = libs/core
+	url = https://github.com/elzair/core.git
+[submodule "libs/predef"]
+	path = libs/predef
+	url = https://github.com/elzair/predef.git
+[submodule "libs/system"]
+	path = libs/system
+	url = https://github.com/elzair/system.git
