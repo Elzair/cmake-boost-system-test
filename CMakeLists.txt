@@ -1,8 +1,4 @@
-if(APPLE)
-  cmake_minimum_required(VERSION 2.8.11 FATAL_ERROR)
-else()
-  cmake_minimum_required(VERSION 2.8.7 FATAL_ERROR)
-endif()
+cmake_minimum_required(VERSION 3.3)
 
 project(test_system)
 
