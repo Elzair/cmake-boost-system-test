@@ -6,4 +6,9 @@ add_subdirectory(libs)
 
 add_executable(test_system test.cpp)
 
-target_link_libraries(test_system boost::predef boost::config boost::assert boost::core boost::system)
+target_link_libraries(test_system
+  boost::assert
+  boost::config
+  boost::core
+  boost::predef
+  boost::system)
